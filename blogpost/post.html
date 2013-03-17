@@ -762,7 +762,7 @@ asciidoc.install();
 <div class="sect1">
 <h2 id="_enter_e2e">Enter E2E</h2>
 <div class="sectionbody">
-<div class="paragraph"><p>Angular&#8217;s team has developed a project called <a href="http://docs.angularjs.org/guide/dev_guide.e2e-testing">"E2E"</a>, or the "End to End" testing framework. It allows developers to test in multiple browsers at the same time, while your output scrolls past on a terminal every time you change your code without having to re-run a slow functional test. It doesn&#8217;t do everything Selenium does just yet, but it&#8217;s much much faster at running tests on AngularJS sites.</p></div>
+<div class="paragraph"><p>Angular&#8217;s team has developed a project called <a href="http://docs.angularjs.org/guide/dev_guide.e2e-testing">"E2E"</a>, or the "End to End" testing framework. It allows developers to test in multiple browsers at the same time, while your output scrolls past on a terminal every time you change your code without having to re-run a slow functional test. It doesn&#8217;t do everything Selenium does, but it&#8217;s much much faster at running tests on AngularJS sites.</p></div>
 </div>
 </div>
 <div class="sect1">
@@ -772,6 +772,11 @@ asciidoc.install();
 <div class="listingblock">
 <div class="content">
 <pre><tt>sudo npm install -g  testacular</tt></pre>
+</div></div>
+<div class="paragraph"><p>If you&#8217;re in the directory with the index.html and app.js, you can start a simple web server on port 8000 like this:</p></div>
+<div class="listingblock">
+<div class="content">
+<pre><tt>python -m SimpleHTTPServer</tt></pre>
 </div></div>
 </div>
 </div>
@@ -842,20 +847,14 @@ http://www.gnu.org/software/src-highlite -->
 <div class="paragraph"><p><span class="image">
 <img src="e2e-in-action.png" alt="e2e-in-action.png" width="600" />
 </span></p></div>
-<div class="paragraph"><p>As you can see, tested in all three browsers with test output in the console.  Voila!</p></div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_credits">Credits</h2>
-<div class="sectionbody">
-<div class="paragraph"><p>This blog post is a special collaboration between <a href="https://github.com/stephanebisson">Stephane Bisson</a>, who developed concept, the app, and the spec, and <a href="http://www.kylehodgson.com">Kyle Hodgson</a> who helped write and produce the post.</p></div>
+<div class="paragraph"><p>As you can see, tested in all three browsers with test output in the console.  Voila! I love this workflow - keep your favorite text editor open, keep a terminal open, watch your tests go red and green while you work.</p></div>
 </div>
 </div>
 </div>
 <div id="footnotes"><hr /></div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2013-03-16 10:56:28 EDT
+Last updated 2013-03-16 20:07:44 EDT
 </div>
 </div>
 </body>
