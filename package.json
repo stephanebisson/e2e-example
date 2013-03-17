@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "testacular start testacular.conf.js"
+    "test": "node_modules/testacular/bin/testacular start testacular.conf.js",
+    "start": "node node_modules/webserver/webserver.js ."
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,7 @@
   "gitHead": "1c2be1610fe22dea0c9b85dc869f5294e91cb36f",
   "readmeFilename": "README.md",
   "dependencies": {
-    "webserver":""
+    "webserver":"",
+    "testacular": ""
   }
 }

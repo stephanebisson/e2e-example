@@ -21,11 +21,18 @@ exclude = [
   
 ];
 
+preprocessors = {
+  'app.js': 'coverage'
+};
 
 // test results reporter to use
 // possible values: 'dots', 'progress', 'junit'
-reporters = ['progress'];
+reporters = ['progress', 'coverage'];
 
+coverageReporter = {
+  type : 'html',
+  dir : 'coverage/'
+}
 
 // web server port
 port = 9876;
@@ -68,7 +75,7 @@ captureTimeout = 60000;
 singleRun = false;
 
 proxies = {
-  '/': 'http://localhost:8000/'
+  '/': 'http://localhost:8003/'
 };
 
 
