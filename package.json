@@ -1,0 +1,20 @@
+{
+  "name": "e2e-example",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "testacular start testacular.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stephanebisson/e2e-example.git"
+  },
+  "author": "Stephane Bisson & Kyle Hodgson",
+  "license": "BSD",
+  "gitHead": "1c2be1610fe22dea0c9b85dc869f5294e91cb36f",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "webserver":""
+  }
+}
